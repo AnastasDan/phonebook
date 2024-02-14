@@ -101,7 +101,8 @@ def edit_entry(phonebook: list[list[str]]) -> None:
 
 def print_phonebook(phonebook: list[list[str]], page_size: int) -> None:
     """
-    Выводит содержимое телефонного справочника постранично."""
+    Выводит содержимое телефонного справочника постранично.
+    """
     if len(phonebook) == 0:
         print("Справочник пуст.")
         return
